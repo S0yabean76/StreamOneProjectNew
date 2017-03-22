@@ -1,0 +1,12 @@
+.navbar {
+ 	background-color: #ba2126;
+ 	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-default .navbar-brand {
+	color: #000000;
+}
+
+#myCollapsingList{
+	color: #000000;
+}
