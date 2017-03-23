@@ -1,0 +1,22 @@
+{
+  "name": "stream_one_project",
+  "description": "\"# StreamOneProject\"",
+  "main": "index.js",
+  "authors": [
+    "Abby Sawyer <abbysawyer@blueyonder.co.uk>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/S0yabean76/StreamOneProject",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.3",
+    "angular-route": "^1.6.3"
+  }
+}
