@@ -16,6 +16,11 @@ p {
 	font-family: 'Open Sans', sans-serif;
 }
 
+label {
+	font-family: 'Open Sans', sans-serif;
+	width: 150px;
+}
+
 .row {
 	margin-bottom: 50px;
 }
@@ -36,6 +41,7 @@ body{
 	padding: 15px;
 	text-align: center;
 	color: black;
+	height: 20%;
 }
 
 #footerText {
@@ -43,7 +49,6 @@ body{
 	margin-bottom: 30px;
 }
 
-#cancerImg {
-	height: 98px;
-	width: 170px;
+.audioContainer{
+	margin: 10px;
 }
