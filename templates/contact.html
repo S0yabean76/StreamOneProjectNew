@@ -1,4 +1,37 @@
 <show-navbar></show-navbar>
+<div id="mainBox" class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<p>Would you like to hear us sing again?! We've decided to go public and are taking bookings for small family gigs - birthdays, weddings. Christenings and the like! Please fill in our booking form to see if if we're free!</p>
+		</div>
+	</div>
+	
+	<div id="formContainer" class="container">
+        <form id="form1" action="server_side_script.php" method="get">
+        	<fieldset>
+      			<legend>Get in Touch!</legend>
 
+          		<label>* Firstname:</label>
+          			<input type="text" name="fname" placeholder="Enter your first name" required="" /><br>
+           		<label for="Email">* Email:</label>
+           			<input type="email" name="Email" placeholder="Enter your email here" required="" autofocus /><br>
+           		<label for="Date">* Date:</label>
+           			<input type="date" name="Date"/><br>
+           		<label for="tel">Telephone</label>
+           			<input type="tel" name="tel" placeholder="Enter tel number here" pattern="[0-9]{5}[ ]{1}[0-9]{6}" title="Please enter a valid mobile number including prefix"/><br>
+           		<label for="Postcode">Postcode:</label>
+           			<input type="text" name="Postcode" placeholder="UK postcode" pattern="[A-Za-z]{1,2}[0-9]{1,2}[ ]{1}[0-9]{1,2}[A-Za-z]{1,2}" title="UK postcode"/><br>
+           		<label for="Checkbox">Event type:</label><br>
+           			<input type="Checkbox" name="EventType" value="Birthday"/>Birthday
+           			<input type="Checkbox" name="EventType" value="Wedding"/>Wedding
+           			<input type="Checkbox" name="EventType" value="Christening"/>Christening
+           		    <input type="Checkbox" name="EventType" value="Other"/>Other<br>       		
+           		<label for="submit"></label>
+           			<input class="submit" type="submit" name="submit"/>
+           		<div id="note">* Denotes required field</div>
+           	</fieldset>
+        </form>
+    </div>
+</div>
 
 <show-footer></show-footer>

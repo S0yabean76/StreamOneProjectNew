@@ -1,7 +1,10 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 .navbar {
  	background-color: #ba2126;
- 	font-family: 'Open Sans', sans-serif;
- 	margin-bottom: 50px;
+  	margin-bottom: 50px;
  }
 
 .navbar-default .navbar-brand {
@@ -12,12 +15,7 @@
 	color: black;
 }
 
-p {
-	font-family: 'Open Sans', sans-serif;
-}
-
 label {
-	font-family: 'Open Sans', sans-serif;
 	width: 150px;
 }
 
@@ -51,4 +49,43 @@ body{
 
 .audioContainer{
 	margin: 10px;
+}
+
+#formContainer {
+	width: 75%;
+	margin: auto;
+}
+
+fieldset {
+	width: auto;
+	border-radius: 15px;
+	background-color: #ba2126;
+	margin: 50px;
+}
+
+legend {
+	background-color: #f2a707;
+	border: 1px solid;
+	border-radius: 15px;
+	border-color: white;
+	padding:10px;
+}
+
+.submit {
+	background-color: #f2a707;
+	color: black;
+	border-radius: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 5px;
+}
+
+fieldset label {
+	padding: 10px;
+}
+
+
+#note {
+	font-size: 10px;
+	margin-bottom: 15px;
 }
