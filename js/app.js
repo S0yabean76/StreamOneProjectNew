@@ -1,4 +1,4 @@
-angular.module('ThreeLovelyLadiesPage', ['ngRoute', 'RouteControllers', 'NavigationDirective']);
+angular.module('ThreeLovelyLadiesPage', ['ngRoute', 'RouteControllers', 'NavigationDirective', 'ui.bootstrap']);
 
 angular.module('ThreeLovelyLadiesPage').config(function($locationProvider, $routeProvider){
 	$locationProvider.html5Mode(true);

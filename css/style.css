@@ -1,10 +1,12 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+	margin-top: 5%;
+	margin-bottom: 7%;
 }
 
 .navbar {
  	background-color: #ba2126;
-  	margin-bottom: 50px;
+ 	background-image: linear-gradient(to right, #ba2126 50%, orange 80%, white 100%);
  }
 
 .navbar-default .navbar-brand {
@@ -16,18 +18,33 @@ body {
 }
 
 label {
-	width: 150px;
-}
-
-.row {
-	margin-bottom: 50px;
+	width: 25%;
+	margin-bottom: 1%;
 }
 
 #mainBox {
-	background-color: black;
+	background-color: #000000;
 	color: white;
-	margin-top: 100px;
 	text-align: center;
+	margin: auto;
+}
+
+#homeText {
+	padding-top: 3%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#listenText	{
+	padding: 1%;
+	margin-bottom: 10px;
+}
+
+#containerOne{
+	margin-top: 50px;
 }
 
 body{
@@ -36,19 +53,29 @@ body{
 
 #footer {
 	background-color: #ba2126;
-	padding: 15px;
+	background-image: linear-gradient(to right, #ba2126 50%, orange 80%, white 100%);
+	padding-top: 1%;
+	padding-bottom: 2%;
 	text-align: center;
 	color: black;
-	height: 20%;
+	height: 130px;
+}
+
+#footerContainer {
+	height: 100px;
 }
 
 #footerText {
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+#footerTextMobile	{
+	display: none;
 }
 
 .audioContainer{
-	margin: 10px;
+	margin: 1%;
 }
 
 #formContainer {
@@ -56,36 +83,128 @@ body{
 	margin: auto;
 }
 
+.form {
+	margin-bottom: 50px;
+}
+
 fieldset {
 	width: auto;
-	border-radius: 15px;
+	border-radius: 10px;
 	background-color: #ba2126;
-	margin: 50px;
+	margin: 2%;
+	margin-bottom: 50px;
 }
 
 legend {
 	background-color: #f2a707;
 	border: 1px solid;
-	border-radius: 15px;
+	border-radius: 10px;
 	border-color: white;
-	padding:10px;
+	padding:1%;
+	margin-bottom: 10px;
 }
 
 .submit {
 	background-color: #f2a707;
 	color: black;
-	border-radius: 15px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	padding: 5px;
+	border-radius:10px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding: 1%;
+	margin-right: 25%;
 }
 
 fieldset label {
-	padding: 10px;
+	padding: 5px;
 }
-
 
 #note {
 	font-size: 10px;
-	margin-bottom: 15px;
+	margin-bottom: 1%;
+}
+
+input {
+	color: black;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	#mainBox {
+		margin-top: 80px;
+		margin-bottom: 150px;
+	}
+
+	.navbar {
+		margin-bottom: 50px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	#mainBox {
+		margin-top: 80px;
+		margin-bottom: 150px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	#mainBox {
+		margin-top: 80px;
+		margin-bottom: 80px;
+	}
+
+	#footerImgOne {
+		display: none;
+	}
+
+	#footerImgTwo {
+		display: none;
+	}
+
+	#footer {
+		height: 60px;
+	}
+
+	#footerText{
+		margin-top: 2px;
+	}
+}
+
+@media (max-width: 480px) {
+
+	#footerTextOne{
+		display: none;
+	}
+
+	#footerTextTwo {
+		display: none;
+	}
+
+	#footerTextMobile {
+		display: inline;
+	}
+
+	audio {
+		width: 100%;
+	}
+
+	input {
+		width: 90%;
+	}
+
+	form {
+		width: 250px;
+	}
+
+	#formContainer {
+		margin: 0;
+	}
+
+	label {
+		width: 100%;
+	}
+
+
+	
 }
