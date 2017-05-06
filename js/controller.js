@@ -1,4 +1,2 @@
-angular.module('RouteControllers', [])
-
-	
-	
+angular.module('RouteControllers', ['ui.bootstrap'])
+		

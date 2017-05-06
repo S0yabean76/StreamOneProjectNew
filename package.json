@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/S0yabean76/StreamOneProject/issues"
   },
-  "homepage": "https://github.com/S0yabean76/StreamOneProject#readme"
+  "homepage": "https://github.com/S0yabean76/StreamOneProject#readme",
+  "dependencies": {
+    "angular-animate": "^1.6.3"
+  }
 }

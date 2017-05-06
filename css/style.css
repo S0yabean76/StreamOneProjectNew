@@ -43,6 +43,11 @@ img {
 	margin-bottom: 10px;
 }
 
+#watchText	{
+	padding: 1%;
+	margin-bottom: 10px;
+}
+
 #containerOne{
 	margin-top: 50px;
 }
@@ -85,6 +90,16 @@ body{
 
 .form {
 	margin-bottom: 50px;
+}
+
+#sequence{
+	width: 75%;
+	height: auto;
+}
+
+#watchImg{
+	padding-top-top: auto;
+	padding-bottom: auto;
 }
 
 fieldset {
