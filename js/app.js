@@ -3,19 +3,19 @@ angular.module('ThreeLovelyLadiesPage', ['ngRoute', 'RouteControllers', 'Navigat
 angular.module('ThreeLovelyLadiesPage').config(function($locationProvider, $routeProvider){
 	$locationProvider.html5Mode(true);
 
-	$routeProvider.when('.', {
+	$routeProvider.when('/', {
 		templateUrl: 'templates/home.html',
 	})
 
-	$routeProvider.when('listen', {
+	$routeProvider.when('/listen', {
 		templateUrl: 'templates/listen.html'
 	})
 
-	$routeProvider.when('watch', {
+	$routeProvider.when('/watch', {
 		templateUrl: 'templates/watch.html'
 	})
 
-	$routeProvider.when('contact', {
+	$routeProvider.when('/contact', {
 		templateUrl: 'templates/contact.html'
 	})
 
