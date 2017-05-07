@@ -12,3 +12,5 @@ angular.module('NavigationDirective',[])
 			templateUrl: 'templates/directives/show-footer.html'
 		};
 	})
+
+	
